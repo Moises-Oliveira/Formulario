@@ -54,13 +54,17 @@ span{
 }
 form .enviar {
     margin-top:20px;
-    background-color: #DEFAFC;
     border-radius: 15px;
     max-width: 100px;
     cursor: pointer;
     text-align: center;
     margin-bottom:20px;
 
+
+}
+.enviar:hover{
+    background-color: rgb(27,32,41);
+    color: rgb(222,250,252);
 }
 
 .socials{
