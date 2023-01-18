@@ -9,7 +9,6 @@ body{
     min-height: 100vh;
 }
 
-
 main{
     display: flex;
     flex-direction: column;
@@ -27,9 +26,8 @@ form{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 800px;
-    width: 50%;
-    min-height: 500px;
+    max-width: 500px;
+    width: 100%;
     background-color: #1b2029;
     padding: 30px;
 
@@ -41,11 +39,11 @@ form label{
     font-size: 1.1em;
     margin-top: 40px;
     max-width: 375px;
-    max-height: 667px;
 }
 form input{
     height: 30px;
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
     background-color: #161923;
 
 }
@@ -55,38 +53,34 @@ span{
 
 }
 form .enviar {
-    margin-top:15px;
-
-    font-size: 1.1em;
+    margin-top:20px;
     background-color: #DEFAFC;
-    border-radius: 20px;
-    padding: 20px;
-    height: 30px;
-    width: 30%;
-    padding-top: 10px;
+    border-radius: 15px;
+    max-width: 100px;
     cursor: pointer;
-    
+    text-align: center;
+    margin-bottom:20px;
 
-}
-form .ou{
-    margin-top: 20px;
-    margin-bottom: 30px;
-    font-size: 1.1em;
-    
 }
 
 .socials{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 10px;
     
     
 }
+.recuperar  a{
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+
 .socials img{
     width: 36px;
     margin-left: 10px;
+    margin-top: 10px;
 }
 
-@media (label) {
-
-}
